@@ -1,0 +1,32 @@
+body{
+  width: 800px;
+
+}
+
+.encabezado{
+  background-color: blue;
+  overflow: hidden;
+}
+
+.cuerpo{
+  width: 600px;
+  background-color: green;
+}
+
+.pie{
+  background-color: gray;
+}
+
+.izda{
+    width: 400px;
+    float: left;
+}
+
+.dcha_{
+    width: 400px;
+    float: right;
+}
+
+.imagen{
+  width: 100px; 
+}

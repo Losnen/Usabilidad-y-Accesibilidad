@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Car4Share</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+      <h1> Car 4 Share</h1>
+      <br>
+      <br>
+      <table>
+        <tr>
+          <td><strong>Origen</strong></td>
+          <td><strong>Destino</strong></td>
+          <td><strong>Precio</strong></td>
+        </tr>
+
+        <tr>
+          <td>Valencia  </td>
+          <td>Madrid  </td>
+          <td>10€</td>
+        </tr>
+
+        <tr>
+          <td>Barcelona  </td>
+          <td>Bilbao  </td>
+          <td>16€</td>
+        </tr>
+
+        <tr>
+          <td>Santa Cruz  </td>
+          <td>El Puerto  </td>
+          <td>8€</td>
+        </tr>
+      </table>
+
+      <img src="http://portal.uc3m.es/portal/pls/portal/docs/1/42811916.JPG">
+      <p>Comparte gastos y cuida el medio ambiente con nosotros :)</p>
+
+      <ul>
+        <li> ültimos viajes: </li>
+        <br>
+        <li> Valencia - Castellón </li>
+        <li> Sevilla - Zamora </li>
+        <li> Zaragoza - Madrid  </li>
+      </ul>
+      <h2> Introduzca sus datos: </h2>
+      <form action="pagina2.html" method="get" onsubmit ="return validacion()">
+      Nombre <input type="text" name="Nombre" id="nombre">
+      <br>
+      <br>
+      Apellido <input type="text" name="Apellido" id="apellido">
+      <br>
+      <br>
+      Email <input type="text" name="Email" id="mail">
+
+      <p>Elige el rol </p>
+      <input type="radio" name="juego"  required>Pasajero
+      <input type="radio" name="juego" required>Conductor
+      <br>
+      <br>
+      <input type ="submit" value="Enviar">
+      <input type="reset" value="Limpiar">
+      </form>
+
+
+  </body>
+
+</html>

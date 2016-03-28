@@ -1,0 +1,84 @@
+body{
+    width: 770px;
+    color: black;
+    font-family: Arial;
+    font-size: 1.5em;
+}
+
+/*ENCABEZADO*/
+
+.header{
+    height: 100px;
+}
+
+.encabezado{
+    background-image: url(cabecera.jpg);
+    background-repeat: round;
+    overflow: hidden;
+}
+
+.menu{
+    float: left;
+    padding: 0.3em;
+    margin-bottom: 0.7em;
+}
+
+.menu a:hover{
+    background-color: skyblue;
+}
+
+/*CONTENIDO*/
+
+.columnas{
+    overflow: hidden;
+}
+
+.centr_col{
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.izda_col{
+    width: 150px;
+    float: left;
+}
+
+.dcha_col{
+    width: 150px;
+    float: right;
+}
+
+a:link{
+  color: blue;
+}
+
+a:hover{
+  color: red;
+}
+
+a:visited{
+  font-family: Verdana;
+  color: green;
+}
+
+a:visited:hover{
+  color: red;
+}
+
+table a:link{
+  color: #00FF00;
+}
+
+table a:hover{
+  color: red;
+}
+
+p {
+  margin-top: 0.5em;
+}
+
+/*PIE*/
+
+.footer {
+    background-color: gray;
+}
