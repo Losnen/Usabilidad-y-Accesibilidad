@@ -1,0 +1,5 @@
+#cabecera{
+    background: url(images/cabecera.jpg);
+    background-repeat: round;
+    overflow: hidden;
+}

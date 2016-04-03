@@ -1,0 +1,60 @@
+{
+	"coches": [
+		{
+			"modelo": "Seat Leon",
+			"conductor": "Nieves Fuentes",
+			"antiguedad": "13 meses",
+			"rutinas": [
+				{
+					"origen": "Icod de los Vinos",
+					"destino": "La Laguna"
+				}
+			],
+			"otros_viajeros": [
+				"Sara García",
+				"Paola Martín"
+			],
+			"zonas": [
+				"Norte de Tenerife"
+			]
+		},
+		{
+			"modelo": "Citroen C2",
+			"conductor": "Candelaria González",
+			"antiguedad": "2 meses",
+			"rutinas": [
+				{
+					"origen": "Los Realejos",
+					"destino": "Tacoronte"
+				},
+				{
+					"origen": "Tacoronte",
+					"destino": "Los Realejos"
+				}
+			],
+			"otros_viajeros": [
+				
+			],
+			"zonas": [
+				"Norte de Tenerife"
+			]
+		},
+		{
+			"modelo": "Audi TT",
+			"conductor": "Fabián León",
+			"antiguedad": "5 meses",
+			"rutinas": [
+				{
+					"origen": "La Orotava",
+					"destino": "Santa Cruz"
+				}
+			],
+			"otros_viajeros": [
+				"Fernando León"
+			],
+			"zonas": [
+				"Norte de Tenerife"
+			]
+		}
+	]
+}
