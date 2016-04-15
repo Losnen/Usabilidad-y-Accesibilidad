@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/jpg" href="css/images/cabecera.jpg"/>
+    <link media="screen" type="text/css" href="css/main.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.12.2.min.js" ></script>
+    <script type="text/javascript" src="js/validar_email.js"></script>
+	<script type="text/javascript" src="js/parser_json.js"></script>
+	<script type="text/javascript" src="js/serialize.js"></script>
+    <title>SHARE YOUR CAR</title>
+</head>
+
+<body>
+    <div class ="header" >
+        
+        <div class="encabezado">
+            <h1>SYC: Share Your Car</h1>
+        </div>
+    </div>
+    <br/>
+
+    <div class="columnas">
+        <div class="izda_col">
+          <p>Menú</p>
+            <div class="menu">
+                <a href="index.html">Inicio</a>
+                <br/>
+                <a href="index.html">Noticias</a>
+                <br/>
+                <a href="index.html">Contacto</a>
+            </div>
+          </div>
+
+        <div class="dcha_col">
+            <h3>¿Quiénes somos?</h3>
+            <p>El equipo de SYC está formado por un grupo de alumnos del <a href="http://www.ull.es/view/centros/etsii/Grado_en_Ingenieria_Informatica/es">Grado en Ingeniería Informática</a> integrado en la <a href="http://www.ull.es/view/institucional/ull/Escuela_Superior_de_Ingenieria_y_Tecnologia/es">ESIT</a> (Escuela Superior de Ingeniería y Tecnología) de la ULL, cuyo perfil presenta facilidad para trabajar con nuevas tecnologías, así como una gran imaginación para poner en funcionamiento dichas tecnologías, sacarles el máximo partido y crear sistemas y aplicaciones que puedan ser de gran utilidad para las personas.</p>
+        </div>
+
+        <div class="centr_col">
+            <p>A continuación podemos ver algunas de las funcionalidades que inicialmente integrará SYC y algunas otras que no:</p>
+            <table>
+                <caption><u>Funcionalidades integradas en SYC</u></caption>
+                <tr>
+                    <th>Funcionalidad</th>
+                    <th>Integrada (V)/No integrada (X)</th>
+                </tr>
+                <tr>
+                    <td>Perfil personal de usuario</td>
+                    <td>V</td>
+                </tr>
+                <tr>
+                    <td>Opiniones y valoraciones entre usuarios</td>
+                    <td>V</td>
+                </tr>
+                <tr>
+                    <td>Calculadora de precios orientativos</td>
+                    <td>V</td>
+                </tr>
+                <tr>
+                    <td>Mensajería privada entre usuarios</td>
+                    <td>V</td>
+                </tr>
+                <tr>
+                    <td>Mensajería intantánea en tiempo real</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>Llamadas entre usuarios vía Internet</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>Mapa de <a href="http://www.google.es">Google</a> con recorridos</td>
+                    <td>X</td>
+                </tr>
+            </table>
+            <h3>¿Cuándo podré usar SYC?</h3>
+            <p>SYC se encuentra ahora mismo en fase de desarrollo. Es por ello que aún no se dispone de una versión funcional para sacar al mercado. ¡Nuestro equipo está trabajando duro cada día para que podáis empezar cuanto antes a disfrutar de todas las ventajas y los servicios que os tenemos preparados!</p>
+
+        </div>
+    </div>
+	
+	
+	<div class="buscar">
+		<h2>Busca el viaje que más te interese</h2>
+		
+		<form action "" method="get" name="datos" id="formul">
+			Introduzca ciudad de origen o destino: <input type="text" id="busqueda">
+			<input type="button" value="Buscar" id="boton1">
+		</form>
+		
+		<p id="resultado_busqueda"></p>
+	</div>
+
+
+    <div class="footer" >
+        <h2>¡Sé el primero en conocer el lanzamiento de SYC!</h2>
+        <p>Rellena el siguiente formulario para recibir las últimas novedades por correo electrónico:</p>
+        <form action="" method="get" name="dato" id="formulario">
+            Nombre:
+            <input type="text" name="nombre"> Apellidos:
+            <input type="text" name="apellidos">
+            <br/> Dirección de e-mail:
+            <input type="email" name="email" id="email">
+            <br/> Tipo de conductor:
+            <select name="elegir">
+                <option name="1">Conductor con más de 1 año de experiencia CON coche propio</option>
+                <option name="2">Conductor con más de 1 año de experiencia SIN coche propio</option>
+                <option name="3">Conductor novel (menos de 1 año de experiencia) CON coche propio</option>
+                <option name="4">Conductor novel (menos de 1 año de experiencia) SIN coche propio</option>
+                <option name="5">Sin carné de conducir</option>
+            </select>
+            <br/>
+            <input type="submit"  value="Enviar" id="validar">
+            <input type="reset" value="Borrar">
+        </form>
+        <button id="serializar">Serialize formulario</button>
+        <div id="d" ></div>
+    </div>
+</body>
+
+</html>
