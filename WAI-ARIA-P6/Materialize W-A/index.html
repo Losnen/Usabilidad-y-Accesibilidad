@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Papelería González</title>
+      <meta charset="utf-8">
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/main.css"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <nav id=header role="navigation">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">PPGyH</a>
+          <ul role="menubar" id="nav-mobile" class="left hide-on-med-and-down">
+            <li role="menuitem"><a role="link" href="">Inicio</a></li>
+            <li role="menuitem"><a role="link" href="">Tarifas</a></li>
+            <li role="menuitem"><a role="link" href="">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container" role="grid">
+        <div class="row" role="row">
+			    <h1 role="heading" id=titulo1>Papelería González y Hermanos</h1>
+			    <p id=descripcion>Una papelera especialistas en productos de ofimática e impresión digital</p>
+			    <div role="img">
+  			    <img src=papeleria.jpg role="Papeleria"alt="Presentacion"/>
+			    </div>
+        </div>
+        <div class="row" role="row">
+          <div class="buscar" role="search">
+            <form action "" method="get" name="datos" id="formul">
+              <label for="busqueda"> Busqueda
+                <input role="input" placeholder="Buscar" type="text" id="busqueda" name=campoBusqueda ariarequired="true"/>
+                <button class="btn waves-effect waves-light" type="submit" name="action" value="Buscar" id="boton1" role="button">Buscar
+    				      <i class="material-icons right">send</i>
+  				      </button>
+                <br>
+                <br>
+                <input role="checkbox" type="checkbox" id="beep">
+                <label for="beep">Beep</label>
+              </label>
+            </form>
+            <p id="resultado_busqueda"></p>
+          </div>
+        </div>
+        <div class="row" role="row">
+          <div id=contenidoPrincipal role="main">
+			      <h2 role="heading" role="heading" id=titulo2>Tarifas</h2>
+				    <!-- contenido de Tarifas -->
+				    <div id=ofertas role="article"></div>
+				    <a role="link" href="http://www.google.es/">Google</a></li>
+		      </div>
+		      <div role="img">
+	  			  <img src=anuncio1.jpg role="Anuncio 1" alt="Anuncio 1"/>
+		      </div>
+        </div>
+      </div>
+      <footer id="pie" class="page-footer">
+          <div class="container" role="grid">
+            <div class="row" role="row">
+              <div class="col s12">
+                <h5 role="heading" class="white-text">Links</h5>
+                <ul id=menuSecundario role="menubar">
+						      <li role="menuitem">&copy;2010 Papelerías González y Hermanos <acronym title="Sociedad Limitada">S.L.</acronym></li>
+						      <li role="menuitem"><a role="link" href=privacidad.php>Privacidad</a></li>
+						      <li role="menuitem"><a role="link" href=aviso.php>Aviso Legal</a></li>
+					      </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container" role="grid">
+            © 2016 Copyright Text
+            </div>
+          </div>
+        </footer>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
